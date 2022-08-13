@@ -1,0 +1,172 @@
+jumbotron {
+    position:relative;
+    overflow:hidden;
+  }
+  
+
+body .jumbotron {
+    margin-bottom: 0px;
+    position: relative;
+    background: none;
+    color: #f5f2ec;
+}
+.bpad {
+  padding-top: 2%;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-image: url( county.jpg );
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+     -o-filter: blur(5px);
+     -ms-filter: blur(5px);
+     filter: blur(5px);
+     z-index: -1;
+     
+}
+.row {
+    padding: 5%;
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+  background-color : #9800fd;
+  background-image : linear-gradient(315deg, #ff0000 0%, #ff04f2 74%);
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+html, body { height: 100%;}
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+
+nav{
+  background-color: white;
+}
+
+.dropdown-menu{
+  width: 100%;
+  text-align: center;
+}
+
+
+.carousel-item img {
+  max-height: 650px !important;
+  max-width: 650px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+input[type=text], select, textarea, input[type=email]{
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid rgb(238, 31, 31); 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+
+input[type=submit] {
+  background-color: #70aa04;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.containercontact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: 5%;
+  padding: 20px;
+}
+
+#pfp{
+  border-radius: 50%;
+  justify-content: center;
+  padding-bottom: 1em;
+  margin-left: 35%;
+}
+
+details{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar{
+  position: relative;
+
+  border: 2px solid #0d96e0;
+
+  border-radius: 20px;
+
+}
+.bar div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #106897;
+}
+.skills:not(:last-child){
+  margin-bottom: 30px;
+}
+#html-bar{
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+  100%{
+      width: 85%;
+  }
+}
+
+#css-bar{
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+  100%{
+      width: 75%;
+  }
+}
+#c-bar{
+  animation: c-fill 2s forwards;
+}
+@keyframes c-fill{
+  100%{
+      width: 90%;
+  }
+}
+
+#Python-bar{
+  animation: Python-fill 2s forwards;
+}
+@keyframes Python-fill{
+  100%{
+      width: 100%;
+  }
+}
